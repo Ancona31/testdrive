@@ -1,0 +1,56 @@
+* {
+ box-sizing: border-box;
+ font-family: 'Roboto', sans-serif, Arial, Helvetica;
+ 
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    background-color: #23424A;
+    margin: 25px 80px; 
+}
+
+.box {
+    width:60%;
+    padding: 150px 45px;
+    text-align: justify;
+  
+}
+
+.box > h1 {
+font-size:48px;
+color: white;
+padding: 15px;
+
+}
+
+.box > p {
+font-size: 21px;
+color: white;
+font-weight: lighter;
+padding: 25px;
+}
+
+.btn {
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color:#38CFD9;
+    padding: 15px;
+    border-radius: 30px;
+    max-width: 12em;
+    text-align: center;
+}
+
+.btn > a {
+    text-decoration: none;
+    color: #23424A;
+}
+
+.btn:hover {
+    background-color: yellow;
+    transition: background-color 0.5s ease-in;
+}
